@@ -40,13 +40,25 @@ iPhone app  ->  Hermes iOS Channel Server  ->  your existing Hermes API server
   Hermes. Nothing is hardcoded to any provider.
 - **Shared sessions** — chats live in the same Hermes session store used by
   your other Hermes channels, so conversations stay consistent across surfaces.
+- **Projects and trash** — organize chats into projects (long-press the
+  new-chat button) and restore deleted chats from the trash.
 - **Self-hosted and private** — no third-party telemetry, analytics, or hosted
   middleman. The channel server runs on your machine next to Hermes.
 
 ## Screenshots
 
-Screenshots are coming with the next release. (They will live in
-`docs/screenshots/` — chat, voice mode, model picker, and settings.)
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/01-new-chat.jpeg" width="260" alt="New chat"><br><sub>New chat</sub></td>
+    <td align="center"><img src="docs/screenshots/02-chat-web-search.jpeg" width="260" alt="Chat with web search"><br><sub>Streaming answers with tool use</sub></td>
+    <td align="center"><img src="docs/screenshots/03-voice-speaking.jpeg" width="260" alt="Voice mode speaking"><br><sub>Voice mode — live spoken reply</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/04-voice-thinking.jpeg" width="260" alt="Voice mode thinking"><br><sub>Voice mode — agent working</sub></td>
+    <td align="center"><img src="docs/screenshots/05-voice-settings.jpeg" width="260" alt="Voice settings"><br><sub>Voice engines: Hermes, Apple, Kokoro</sub></td>
+    <td align="center"><img src="docs/screenshots/06-settings.jpeg" width="260" alt="Settings"><br><sub>Settings</sub></td>
+  </tr>
+</table>
 
 ## How It Works
 
