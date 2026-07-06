@@ -40,8 +40,8 @@ iPhone app  ->  Hermes iOS Channel Server  ->  your existing Hermes API server
   Hermes. Nothing is hardcoded to any provider.
 - **Shared sessions** — chats live in the same Hermes session store used by
   your other Hermes channels, so conversations stay consistent across surfaces.
-- **Projects, trash, and sharing** — organize chats into projects, restore
-  deleted chats, and create read-only share links served by your own server.
+- **Projects and trash** — organize chats into projects (long-press the
+  new-chat button) and restore deleted chats from the trash.
 - **Self-hosted and private** — no third-party telemetry, analytics, or hosted
   middleman. The channel server runs on your machine next to Hermes.
 
