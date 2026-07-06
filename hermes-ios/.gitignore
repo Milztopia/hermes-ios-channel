@@ -1,0 +1,9 @@
+
+# Bundled on-device Whisper model (large; reproducible via download)
+HermesApp/Resources/whisper-base/
+HermesApp/Resources/kokoro-v1_0.safetensors
+HermesApp/Resources/voices.npz
+
+# Xcode project backups
+*.bak
+*.bak[0-9]

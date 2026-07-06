@@ -1,0 +1,20 @@
+{
+  "providers": {
+    "pocket": {
+      "voice_env": "POCKET_VOICE",
+      "voices": [
+        { "id": "example-voice", "name": "Example Voice" }
+      ]
+    },
+    "edge": {
+      "voices": [
+        { "id": "en-US-GuyNeural", "name": "Guy (US)" }
+      ]
+    },
+    "elevenlabs": {
+      "voices": [
+        { "id": "voice-id-from-elevenlabs", "name": "Example ElevenLabs Voice" }
+      ]
+    }
+  }
+}

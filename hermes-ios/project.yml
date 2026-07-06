@@ -1,0 +1,87 @@
+name: HermesApp
+options:
+  bundleIdPrefix: com.hermes
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+  xcodeVersion: "16"
+
+packages:
+  swift-markdown-ui:
+    url: https://github.com/gonzalezreal/swift-markdown-ui
+    from: "2.3.1"
+  Highlightr:
+    url: https://github.com/raspu/Highlightr
+    from: "2.1.0"
+  WhisperKit:
+    url: https://github.com/argmaxinc/WhisperKit
+    from: "0.9.0"
+  mlx-audio-swift:
+    url: https://github.com/Blaizzy/mlx-audio-swift
+    branch: main
+  mlx-swift:
+    url: https://github.com/ml-explore/mlx-swift
+    from: "0.30.6"
+
+targets:
+  HermesApp:
+    type: application
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources:
+      - path: HermesApp
+    resources:
+      - path: HermesApp/Resources/Assets.xcassets
+      - path: HermesApp/Resources/whisper-base
+        type: folder
+      - path: HermesApp/Resources/Tek_xmg_OPEN-CHANNEL_short_1.m4r
+    info:
+      path: HermesApp/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: Hermes Mobile
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        UILaunchScreen:
+          UIColorName: ""
+        NSMicrophoneUsageDescription: "Voice input for talking to Hermes"
+        NSPhotoLibraryUsageDescription: "Attach photos to your messages"
+        NSCameraUsageDescription: "Take a photo to attach to a message"
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        ITSAppUsesNonExemptEncryption: false
+        NSAppTransportSecurity:
+          NSAllowsArbitraryLoads: true
+        UIRequiresFullScreen: true
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.hermes.app
+      SWIFT_VERSION: "5.9"
+      IPHONEOS_DEPLOYMENT_TARGET: "18.0"
+      ENABLE_PREVIEWS: YES
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+    dependencies:
+      - package: swift-markdown-ui
+        product: MarkdownUI
+      - package: Highlightr
+        product: Highlightr
+      - package: WhisperKit
+        product: WhisperKit
+      - package: mlx-audio-swift
+        product: MLXAudioTTS
+      - package: mlx-swift
+        product: MLX
+
+  HermesUITests:
+    type: bundle.ui-testing
+    platform: iOS
+    deploymentTarget: "18.0"
+    sources:
+      - path: HermesUITests
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.hermes.app.uitests
+      SWIFT_VERSION: "5.9"
+      IPHONEOS_DEPLOYMENT_TARGET: "18.0"
+      TEST_TARGET_NAME: HermesApp
+      GENERATE_INFOPLIST_FILE: YES
+    dependencies:
+      - target: HermesApp

@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime data
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.backend-test-venv/
+
+# iOS / Xcode per-user state
+**/xcuserdata/
+*.xcuserstate
+**/DerivedData/
+.derivedData/
+.sourcePackages/
+
+# Large reproducible local model assets
+hermes-ios/HermesApp/Resources/whisper-base/
+hermes-ios/HermesApp/Resources/kokoro-v1_0.safetensors
+hermes-ios/HermesApp/Resources/voices.npz
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local agent/tooling state
+.claude/

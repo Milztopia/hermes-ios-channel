@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021A3C488A4830DF3710D83F /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = 12732687F6C27FE201935ACA /* WhisperKit */; };
+		027D08913BD0958EC45245F1 /* HermesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06F7261536BA995025AFB261 /* HermesClient.swift */; };
+		03CE80659EE68919288EADE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F579D7180C89600B04B271F8 /* Assets.xcassets */; };
+		0949DE65DABC2CE02AE36F57 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05A7EFE65A6F4396EAC539B /* RootView.swift */; };
+		0D47C9AD24400AC219F5EF51 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAD2817B41274627243DC6A /* Chat.swift */; };
+		1D58360514CB20B72E006988 /* ConnectionSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4ADEFFC6C14F19C2878E30 /* ConnectionSetupView.swift */; };
+		1F334F54DB09A230146FF6D7 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D9C6645507F89E9BD275BB /* SettingsStore.swift */; };
+		1F50F25E2776E199A27AAC5E /* HighlightedCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93036C0A94CA0E03862A66E /* HighlightedCodeView.swift */; };
+		251CF44DD3B7C8E771CCCA9D /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6BFA31D138F80030D0EA8718 /* MarkdownUI */; };
+		29E847074B2BE562982D2D3A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3E43716BFFBD0BB83245E5 /* SettingsView.swift */; };
+		2BAE559F71EBEB4DA639D483 /* ImageLightboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009154B682BEC5EE01A28D51 /* ImageLightboxView.swift */; };
+		2FDF5D6F83075ED321FD58F0 /* WhisperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9188D5E42D890E63873459 /* WhisperService.swift */; };
+		3AAA48613369A7C5B6854BA2 /* HermesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934AFF2BA65C5A9974E6EDFF /* HermesUITests.swift */; };
+		4B90CC470C91D64146CDFE37 /* ToolTimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF9CE2B08A7761BAA211F1 /* ToolTimelineView.swift */; };
+		540D06A64B0B2FF7CFB0853C /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CCAD6C00B9BD3B2F9CC640 /* AudioRecorder.swift */; };
+		5BB1E32FB71FCCF3CE420D71 /* MarkdownContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43E7C5426E0EABB192AA697 /* MarkdownContentView.swift */; };
+		65C87AEA0029DF9F6D963F1F /* Highlightr in Frameworks */ = {isa = PBXBuildFile; productRef = E0488EB3F49D5BA9A31AFC84 /* Highlightr */; };
+		71A80AFB65B6FB4C1B791C64 /* ComposerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CA710E7BFD22F992396D09 /* ComposerView.swift */; };
+		7DCC4A8900249032C09D61C0 /* TappableImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B170A5F3E110A454D77DC8EA /* TappableImageProvider.swift */; };
+		8A4721A1792D98C14A0F3DE9 /* VoiceCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91732C529E004CDDCFB8925 /* VoiceCoordinator.swift */; };
+		99D9F64D952AAEABAF060445 /* HermesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290339514B75EFABBA774842 /* HermesApp.swift */; };
+		A1BC32351ADB2325EA727369 /* TTSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54709D7DE1CA88A416AAD242 /* TTSService.swift */; };
+		A75387AC3DEF5CAD2E20B4D4 /* HermesTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C2E81FCB9FB0A383091672 /* HermesTypes.swift */; };
+		A8F7874EAB9A0B8417208676 /* VoiceModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B131081C595E17E5C6C10BF7 /* VoiceModeView.swift */; };
+		AA00AA00AA00AA00AA000003 /* MLXAudioTTS in Frameworks */ = {isa = PBXBuildFile; productRef = AA00AA00AA00AA00AA000002 /* MLXAudioTTS */; };
+		B7A692EE1F323100878B0659 /* ChatStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D83289226711EFDCFC28D7 /* ChatStore.swift */; };
+		BB00BB00BB00BB00BB000003 /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = BB00BB00BB00BB00BB000002 /* MLX */; };
+		CC11223344556677889900CC /* TimingReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC11223344556677889900DD /* TimingReporter.swift */; };
+		D2D2D2D2D2D2D2D2D2D2D202 /* whisper-base in Resources */ = {isa = PBXBuildFile; fileRef = D1D1D1D1D1D1D1D1D1D1D101 /* whisper-base */; };
+		D5E759A27D98FB7884096278 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1370179E309B1EDBE6D7BCEC /* SidebarView.swift */; };
+		DB39971D3145F9DB5E8D41D3 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A35A2E2AFCA7073138B42 /* Haptics.swift */; };
+		E1E1E1E1E1E1E1E1E1E1E102 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r in Resources */ = {isa = PBXBuildFile; fileRef = E1E1E1E1E1E1E1E1E1E1E101 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r */; };
+		E4CB67CC61235B4A1A09BFE6 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8E8E789DE6E78FE5280C2 /* MessageView.swift */; };
+		F79228AD380280A8CF37D564 /* SSEStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFF321C4BFCEC6EF66D2AC /* SSEStream.swift */; };
+		F9F1FEFE7D42A024AB4A2A5C /* HermesRealServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674134E1356E7AABE561D6BC /* HermesRealServerUITests.swift */; };
+		FB17B45170AB236AAB1D739B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483A0C8B3E25AAEBF0568A45 /* ChatView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C004BD6A38563F9D08D6CB3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6CF7E0D026EEF11CC9FD042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD166FDD06D2A18853CFDED0;
+			remoteInfo = HermesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009154B682BEC5EE01A28D51 /* ImageLightboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLightboxView.swift; sourceTree = "<group>"; };
+		05D9C6645507F89E9BD275BB /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		06F7261536BA995025AFB261 /* HermesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesClient.swift; sourceTree = "<group>"; };
+		1370179E309B1EDBE6D7BCEC /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		18EF9CE2B08A7761BAA211F1 /* ToolTimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolTimelineView.swift; sourceTree = "<group>"; };
+		290339514B75EFABBA774842 /* HermesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesApp.swift; sourceTree = "<group>"; };
+		3F9188D5E42D890E63873459 /* WhisperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhisperService.swift; sourceTree = "<group>"; };
+		483A0C8B3E25AAEBF0568A45 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		4E8A35A2E2AFCA7073138B42 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		4F3E43716BFFBD0BB83245E5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		51CCAD6C00B9BD3B2F9CC640 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		54709D7DE1CA88A416AAD242 /* TTSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSService.swift; sourceTree = "<group>"; };
+		597B4CAD8027D46A9263FAEF /* HermesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HermesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		674134E1356E7AABE561D6BC /* HermesRealServerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesRealServerUITests.swift; sourceTree = "<group>"; };
+		67CA710E7BFD22F992396D09 /* ComposerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposerView.swift; sourceTree = "<group>"; };
+		6DAD2817B41274627243DC6A /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		77D83289226711EFDCFC28D7 /* ChatStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatStore.swift; sourceTree = "<group>"; };
+		80C2E81FCB9FB0A383091672 /* HermesTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesTypes.swift; sourceTree = "<group>"; };
+		934AFF2BA65C5A9974E6EDFF /* HermesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HermesUITests.swift; sourceTree = "<group>"; };
+		9E507A655C5BD7A20F5FE16A /* HermesUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = HermesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B131081C595E17E5C6C10BF7 /* VoiceModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceModeView.swift; sourceTree = "<group>"; };
+		B170A5F3E110A454D77DC8EA /* TappableImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableImageProvider.swift; sourceTree = "<group>"; };
+		B93036C0A94CA0E03862A66E /* HighlightedCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightedCodeView.swift; sourceTree = "<group>"; };
+		C05A7EFE65A6F4396EAC539B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		C6CD5E4B50C761C0EF28F19C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CC11223344556677889900DD /* TimingReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingReporter.swift; sourceTree = "<group>"; };
+		D1D1D1D1D1D1D1D1D1D1D101 /* whisper-base */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "whisper-base"; sourceTree = "<group>"; };
+		D91732C529E004CDDCFB8925 /* VoiceCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCoordinator.swift; sourceTree = "<group>"; };
+		E1E1E1E1E1E1E1E1E1E1E101 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = "Tek_xmg_OPEN-CHANNEL_short_1.m4r"; sourceTree = "<group>"; };
+		E43E7C5426E0EABB192AA697 /* MarkdownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownContentView.swift; sourceTree = "<group>"; };
+		E4AFF321C4BFCEC6EF66D2AC /* SSEStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEStream.swift; sourceTree = "<group>"; };
+		F4E8E8E789DE6E78FE5280C2 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		F579D7180C89600B04B271F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE4ADEFFC6C14F19C2878E30 /* ConnectionSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionSetupView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438525C75BA80695B6435AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251CF44DD3B7C8E771CCCA9D /* MarkdownUI in Frameworks */,
+				65C87AEA0029DF9F6D963F1F /* Highlightr in Frameworks */,
+				021A3C488A4830DF3710D83F /* WhisperKit in Frameworks */,
+				AA00AA00AA00AA00AA000003 /* MLXAudioTTS in Frameworks */,
+				BB00BB00BB00BB00BB000003 /* MLX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081B8AAC0570E9C58747F344 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20613604A7B352E81627B69 /* Chat */,
+				B027731DAA683BA7556750FC /* Composer */,
+				1A45A96282A4ADD18B39CA70 /* Settings */,
+				C9D2E995E6191AAFB2A48F85 /* Sidebar */,
+				C05A7EFE65A6F4396EAC539B /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		19408571099B858129F85BBD /* HermesApp */ = {
+			isa = PBXGroup;
+			children = (
+				A97F59A718F07AFC8DF56DB1 /* Models */,
+				A9CDBD9F8CBAEEC93B9AB1F6 /* Resources */,
+				A3D46CC3168321AA2F2CEDE7 /* Services */,
+				081B8AAC0570E9C58747F344 /* Views */,
+				290339514B75EFABBA774842 /* HermesApp.swift */,
+			);
+			path = HermesApp;
+			sourceTree = "<group>";
+		};
+		1A45A96282A4ADD18B39CA70 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FE4ADEFFC6C14F19C2878E30 /* ConnectionSetupView.swift */,
+				4F3E43716BFFBD0BB83245E5 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8837A0B322B78265F02261FC = {
+			isa = PBXGroup;
+			children = (
+				19408571099B858129F85BBD /* HermesApp */,
+				EA67DEABDBC1C1FB5305FD21 /* HermesUITests */,
+				BE3E41F14B72A8B291AEDEDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A20613604A7B352E81627B69 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				483A0C8B3E25AAEBF0568A45 /* ChatView.swift */,
+				B93036C0A94CA0E03862A66E /* HighlightedCodeView.swift */,
+				009154B682BEC5EE01A28D51 /* ImageLightboxView.swift */,
+				E43E7C5426E0EABB192AA697 /* MarkdownContentView.swift */,
+				F4E8E8E789DE6E78FE5280C2 /* MessageView.swift */,
+				B170A5F3E110A454D77DC8EA /* TappableImageProvider.swift */,
+				18EF9CE2B08A7761BAA211F1 /* ToolTimelineView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		A3D46CC3168321AA2F2CEDE7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				51CCAD6C00B9BD3B2F9CC640 /* AudioRecorder.swift */,
+				4E8A35A2E2AFCA7073138B42 /* Haptics.swift */,
+				06F7261536BA995025AFB261 /* HermesClient.swift */,
+				05D9C6645507F89E9BD275BB /* SettingsStore.swift */,
+				E4AFF321C4BFCEC6EF66D2AC /* SSEStream.swift */,
+				54709D7DE1CA88A416AAD242 /* TTSService.swift */,
+				CC11223344556677889900DD /* TimingReporter.swift */,
+				D91732C529E004CDDCFB8925 /* VoiceCoordinator.swift */,
+				3F9188D5E42D890E63873459 /* WhisperService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A97F59A718F07AFC8DF56DB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6DAD2817B41274627243DC6A /* Chat.swift */,
+				77D83289226711EFDCFC28D7 /* ChatStore.swift */,
+				80C2E81FCB9FB0A383091672 /* HermesTypes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A9CDBD9F8CBAEEC93B9AB1F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F579D7180C89600B04B271F8 /* Assets.xcassets */,
+				D1D1D1D1D1D1D1D1D1D1D101 /* whisper-base */,
+				E1E1E1E1E1E1E1E1E1E1E101 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r */,
+				C6CD5E4B50C761C0EF28F19C /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B027731DAA683BA7556750FC /* Composer */ = {
+			isa = PBXGroup;
+			children = (
+				67CA710E7BFD22F992396D09 /* ComposerView.swift */,
+				B131081C595E17E5C6C10BF7 /* VoiceModeView.swift */,
+			);
+			path = Composer;
+			sourceTree = "<group>";
+		};
+		BE3E41F14B72A8B291AEDEDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				597B4CAD8027D46A9263FAEF /* HermesApp.app */,
+				9E507A655C5BD7A20F5FE16A /* HermesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9D2E995E6191AAFB2A48F85 /* Sidebar */ = {
+			isa = PBXGroup;
+			children = (
+				1370179E309B1EDBE6D7BCEC /* SidebarView.swift */,
+			);
+			path = Sidebar;
+			sourceTree = "<group>";
+		};
+		EA67DEABDBC1C1FB5305FD21 /* HermesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				674134E1356E7AABE561D6BC /* HermesRealServerUITests.swift */,
+				934AFF2BA65C5A9974E6EDFF /* HermesUITests.swift */,
+			);
+			path = HermesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41BCFC0B0ED653867D833EE6 /* HermesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F624BE4F95FE2FEB06299DB1 /* Build configuration list for PBXNativeTarget "HermesUITests" */;
+			buildPhases = (
+				FF81DF3BBC2D5C5016C2C8FE /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D395472F7FD03DDFF61D0E0 /* PBXTargetDependency */,
+			);
+			name = HermesUITests;
+			packageProductDependencies = (
+			);
+			productName = HermesUITests;
+			productReference = 9E507A655C5BD7A20F5FE16A /* HermesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		AD166FDD06D2A18853CFDED0 /* HermesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E814FB8245BFE4BA2C54BAD5 /* Build configuration list for PBXNativeTarget "HermesApp" */;
+			buildPhases = (
+				C8A802474B5E881BB5A38183 /* Sources */,
+				5CB8F22A298FD8711B49956B /* Resources */,
+				438525C75BA80695B6435AB0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HermesApp;
+			packageProductDependencies = (
+				6BFA31D138F80030D0EA8718 /* MarkdownUI */,
+				E0488EB3F49D5BA9A31AFC84 /* Highlightr */,
+				12732687F6C27FE201935ACA /* WhisperKit */,
+				AA00AA00AA00AA00AA000002 /* MLXAudioTTS */,
+				BB00BB00BB00BB00BB000002 /* MLX */,
+			);
+			productName = HermesApp;
+			productReference = 597B4CAD8027D46A9263FAEF /* HermesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6CF7E0D026EEF11CC9FD042 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					41BCFC0B0ED653867D833EE6 = {
+						TestTargetID = AD166FDD06D2A18853CFDED0;
+					};
+				};
+			};
+			buildConfigurationList = 34198B2A418DC3E6E8463FE6 /* Build configuration list for PBXProject "HermesApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8837A0B322B78265F02261FC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B1185444550BD0468B44C2AA /* XCRemoteSwiftPackageReference "Highlightr" */,
+				2E0734C0F289511596E4609E /* XCRemoteSwiftPackageReference "WhisperKit" */,
+				AA00AA00AA00AA00AA000001 /* XCRemoteSwiftPackageReference "mlx-audio-swift" */,
+				BB00BB00BB00BB00BB000001 /* XCRemoteSwiftPackageReference "mlx-swift" */,
+				573A0F4E1534C566A070059B /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BE3E41F14B72A8B291AEDEDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD166FDD06D2A18853CFDED0 /* HermesApp */,
+				41BCFC0B0ED653867D833EE6 /* HermesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CB8F22A298FD8711B49956B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CE80659EE68919288EADE6 /* Assets.xcassets in Resources */,
+				D2D2D2D2D2D2D2D2D2D2D202 /* whisper-base in Resources */,
+				E1E1E1E1E1E1E1E1E1E1E102 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8A802474B5E881BB5A38183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540D06A64B0B2FF7CFB0853C /* AudioRecorder.swift in Sources */,
+				0D47C9AD24400AC219F5EF51 /* Chat.swift in Sources */,
+				B7A692EE1F323100878B0659 /* ChatStore.swift in Sources */,
+				FB17B45170AB236AAB1D739B /* ChatView.swift in Sources */,
+				71A80AFB65B6FB4C1B791C64 /* ComposerView.swift in Sources */,
+				1D58360514CB20B72E006988 /* ConnectionSetupView.swift in Sources */,
+				DB39971D3145F9DB5E8D41D3 /* Haptics.swift in Sources */,
+				99D9F64D952AAEABAF060445 /* HermesApp.swift in Sources */,
+				027D08913BD0958EC45245F1 /* HermesClient.swift in Sources */,
+				A75387AC3DEF5CAD2E20B4D4 /* HermesTypes.swift in Sources */,
+				1F50F25E2776E199A27AAC5E /* HighlightedCodeView.swift in Sources */,
+				2BAE559F71EBEB4DA639D483 /* ImageLightboxView.swift in Sources */,
+				5BB1E32FB71FCCF3CE420D71 /* MarkdownContentView.swift in Sources */,
+				E4CB67CC61235B4A1A09BFE6 /* MessageView.swift in Sources */,
+				0949DE65DABC2CE02AE36F57 /* RootView.swift in Sources */,
+				F79228AD380280A8CF37D564 /* SSEStream.swift in Sources */,
+				1F334F54DB09A230146FF6D7 /* SettingsStore.swift in Sources */,
+				29E847074B2BE562982D2D3A /* SettingsView.swift in Sources */,
+				D5E759A27D98FB7884096278 /* SidebarView.swift in Sources */,
+				A1BC32351ADB2325EA727369 /* TTSService.swift in Sources */,
+				CC11223344556677889900CC /* TimingReporter.swift in Sources */,
+				7DCC4A8900249032C09D61C0 /* TappableImageProvider.swift in Sources */,
+				4B90CC470C91D64146CDFE37 /* ToolTimelineView.swift in Sources */,
+				8A4721A1792D98C14A0F3DE9 /* VoiceCoordinator.swift in Sources */,
+				A8F7874EAB9A0B8417208676 /* VoiceModeView.swift in Sources */,
+				2FDF5D6F83075ED321FD58F0 /* WhisperService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF81DF3BBC2D5C5016C2C8FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F1FEFE7D42A024AB4A2A5C /* HermesRealServerUITests.swift in Sources */,
+				3AAA48613369A7C5B6854BA2 /* HermesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D395472F7FD03DDFF61D0E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD166FDD06D2A18853CFDED0 /* HermesApp */;
+			targetProxy = C004BD6A38563F9D08D6CB3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A4097790C216D3F150C8AEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hermes.app.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HermesApp;
+			};
+			name = Debug;
+		};
+		3E42E01B75FFCFE1167B4A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HermesApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hermes.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		990B854DFA2556C78ED33118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A0734811A5054569275F2E34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A69E4991AD765D7980D0443B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hermes.app.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HermesApp;
+			};
+			name = Release;
+		};
+		EAEBE668D25F898D64F4EE49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HermesApp/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hermes.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34198B2A418DC3E6E8463FE6 /* Build configuration list for PBXProject "HermesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				990B854DFA2556C78ED33118 /* Debug */,
+				A0734811A5054569275F2E34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E814FB8245BFE4BA2C54BAD5 /* Build configuration list for PBXNativeTarget "HermesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E42E01B75FFCFE1167B4A46 /* Debug */,
+				EAEBE668D25F898D64F4EE49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F624BE4F95FE2FEB06299DB1 /* Build configuration list for PBXNativeTarget "HermesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A4097790C216D3F150C8AEE /* Debug */,
+				A69E4991AD765D7980D0443B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E0734C0F289511596E4609E /* XCRemoteSwiftPackageReference "WhisperKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argmaxinc/WhisperKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+		573A0F4E1534C566A070059B /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+		AA00AA00AA00AA00AA000001 /* XCRemoteSwiftPackageReference "mlx-audio-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Blaizzy/mlx-audio-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B1185444550BD0468B44C2AA /* XCRemoteSwiftPackageReference "Highlightr" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/raspu/Highlightr";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		BB00BB00BB00BB00BB000001 /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.30.6;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		12732687F6C27FE201935ACA /* WhisperKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E0734C0F289511596E4609E /* XCRemoteSwiftPackageReference "WhisperKit" */;
+			productName = WhisperKit;
+		};
+		6BFA31D138F80030D0EA8718 /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 573A0F4E1534C566A070059B /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+		AA00AA00AA00AA00AA000002 /* MLXAudioTTS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA00AA00AA00AA00AA000001 /* XCRemoteSwiftPackageReference "mlx-audio-swift" */;
+			productName = MLXAudioTTS;
+		};
+		BB00BB00BB00BB00BB000002 /* MLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB00BB00BB00BB00BB000001 /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLX;
+		};
+		E0488EB3F49D5BA9A31AFC84 /* Highlightr */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1185444550BD0468B44C2AA /* XCRemoteSwiftPackageReference "Highlightr" */;
+			productName = Highlightr;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A6CF7E0D026EEF11CC9FD042 /* Project object */;
+}
