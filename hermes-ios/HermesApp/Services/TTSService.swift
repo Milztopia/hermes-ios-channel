@@ -45,7 +45,7 @@ final class TTSService: NSObject, AVSpeechSynthesizerDelegate {
     /// this point (restoreOutputVolume was called; mic engine is torn down).
     func startThinkingLoop() {
         guard thinkingPlayer == nil else { return }
-        guard let url = Bundle.main.url(forResource: "Tek_xmg_OPEN-CHANNEL_short_1", withExtension: "m4r") else {
+        guard let url = Bundle.main.url(forResource: "ThinkingLoop", withExtension: "m4a") else {
             NSLog("HERMES thinking bed: resource not found in bundle")
             return
         }

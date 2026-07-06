@@ -29,6 +29,8 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>Take a photo to attach to a message</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Connects to your Hermes channel server on your local network</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>Voice input for talking to Hermes</string>
 	<key>NSPhotoLibraryUsageDescription</key>

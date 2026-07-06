@@ -35,7 +35,7 @@ targets:
       - path: HermesApp/Resources/Assets.xcassets
       - path: HermesApp/Resources/whisper-base
         type: folder
-      - path: HermesApp/Resources/Tek_xmg_OPEN-CHANNEL_short_1.m4r
+      - path: HermesApp/Resources/ThinkingLoop.m4a
     info:
       path: HermesApp/Resources/Info.plist
       properties:
@@ -44,6 +44,7 @@ targets:
         CFBundleVersion: "1"
         UILaunchScreen:
           UIColorName: ""
+        NSLocalNetworkUsageDescription: "Connects to your Hermes channel server on your local network"
         NSMicrophoneUsageDescription: "Voice input for talking to Hermes"
         NSPhotoLibraryUsageDescription: "Attach photos to your messages"
         NSCameraUsageDescription: "Take a photo to attach to a message"
@@ -61,6 +62,7 @@ targets:
       ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
       # No AppIntents in this app; skip extraction to silence the build warning.
       LM_SKIP_METADATA_EXTRACTION: YES
+      TARGETED_DEVICE_FAMILY: 1
     dependencies:
       - package: swift-markdown-ui
         product: MarkdownUI

@@ -223,10 +223,8 @@ progress.
   [Highlightr](https://github.com/raspu/Highlightr),
   [mlx-swift](https://github.com/ml-explore/mlx-swift), and
   [mlx-audio-swift](https://github.com/Blaizzy/mlx-audio-swift).
-- The bundled "thinking" audio loop
-  (`Tek_xmg_OPEN-CHANNEL_short_1.m4r`) is of unknown origin; we were unable to
-  trace its author. If you are the rights holder, open an issue and it will be
-  credited or removed immediately.
+- The bundled "thinking" audio loop (`ThinkingLoop.m4a`) is an original
+  recording made for this project.
 
 ## License
 

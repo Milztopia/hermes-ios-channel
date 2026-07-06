@@ -38,7 +38,7 @@
 		D2D2D2D2D2D2D2D2D2D2D202 /* whisper-base in Resources */ = {isa = PBXBuildFile; fileRef = D1D1D1D1D1D1D1D1D1D1D101 /* whisper-base */; };
 		D5E759A27D98FB7884096278 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1370179E309B1EDBE6D7BCEC /* SidebarView.swift */; };
 		DB39971D3145F9DB5E8D41D3 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8A35A2E2AFCA7073138B42 /* Haptics.swift */; };
-		E1E1E1E1E1E1E1E1E1E1E102 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r in Resources */ = {isa = PBXBuildFile; fileRef = E1E1E1E1E1E1E1E1E1E1E101 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r */; };
+		E1E1E1E1E1E1E1E1E1E1E102 /* ThinkingLoop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = E1E1E1E1E1E1E1E1E1E1E101 /* ThinkingLoop.m4a */; };
 		E4CB67CC61235B4A1A09BFE6 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E8E8E789DE6E78FE5280C2 /* MessageView.swift */; };
 		F79228AD380280A8CF37D564 /* SSEStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFF321C4BFCEC6EF66D2AC /* SSEStream.swift */; };
 		F9F1FEFE7D42A024AB4A2A5C /* HermesRealServerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674134E1356E7AABE561D6BC /* HermesRealServerUITests.swift */; };
@@ -84,7 +84,7 @@
 		CC11223344556677889900DD /* TimingReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingReporter.swift; sourceTree = "<group>"; };
 		D1D1D1D1D1D1D1D1D1D1D101 /* whisper-base */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "whisper-base"; sourceTree = "<group>"; };
 		D91732C529E004CDDCFB8925 /* VoiceCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceCoordinator.swift; sourceTree = "<group>"; };
-		E1E1E1E1E1E1E1E1E1E1E101 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = "Tek_xmg_OPEN-CHANNEL_short_1.m4r"; sourceTree = "<group>"; };
+		E1E1E1E1E1E1E1E1E1E1E101 /* ThinkingLoop.m4a */ = {isa = PBXFileReference; lastKnownFileType = audio.m4a; path = "ThinkingLoop.m4a"; sourceTree = "<group>"; };
 		E43E7C5426E0EABB192AA697 /* MarkdownContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownContentView.swift; sourceTree = "<group>"; };
 		E4AFF321C4BFCEC6EF66D2AC /* SSEStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSEStream.swift; sourceTree = "<group>"; };
 		F4E8E8E789DE6E78FE5280C2 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 			children = (
 				F579D7180C89600B04B271F8 /* Assets.xcassets */,
 				D1D1D1D1D1D1D1D1D1D1D101 /* whisper-base */,
-				E1E1E1E1E1E1E1E1E1E1E101 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r */,
+				E1E1E1E1E1E1E1E1E1E1E101 /* ThinkingLoop.m4a */,
 				C6CD5E4B50C761C0EF28F19C /* Info.plist */,
 			);
 			path = Resources;
@@ -329,7 +329,7 @@
 			files = (
 				03CE80659EE68919288EADE6 /* Assets.xcassets in Resources */,
 				D2D2D2D2D2D2D2D2D2D2D202 /* whisper-base in Resources */,
-				E1E1E1E1E1E1E1E1E1E1E102 /* Tek_xmg_OPEN-CHANNEL_short_1.m4r in Resources */,
+				E1E1E1E1E1E1E1E1E1E1E102 /* ThinkingLoop.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +424,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hermes.app;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -582,7 +582,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hermes.app;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.9;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
