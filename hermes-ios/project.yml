@@ -1,6 +1,6 @@
 name: HermesApp
 options:
-  bundleIdPrefix: com.hermes
+  bundleIdPrefix: com.milztopia
   deploymentTarget:
     iOS: "18.0"
   createIntermediateGroups: true
@@ -55,7 +55,7 @@ targets:
           NSAllowsArbitraryLoads: true
         UIRequiresFullScreen: true
     settings:
-      PRODUCT_BUNDLE_IDENTIFIER: com.hermes.app
+      PRODUCT_BUNDLE_IDENTIFIER: com.milztopia.hermesmobile
       SWIFT_VERSION: "5.9"
       IPHONEOS_DEPLOYMENT_TARGET: "18.0"
       ENABLE_PREVIEWS: YES
@@ -82,7 +82,7 @@ targets:
     sources:
       - path: HermesUITests
     settings:
-      PRODUCT_BUNDLE_IDENTIFIER: com.hermes.app.uitests
+      PRODUCT_BUNDLE_IDENTIFIER: com.milztopia.hermesmobile.uitests
       SWIFT_VERSION: "5.9"
       IPHONEOS_DEPLOYMENT_TARGET: "18.0"
       TEST_TARGET_NAME: HermesApp
