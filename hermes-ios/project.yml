@@ -41,7 +41,7 @@ targets:
       properties:
         CFBundleDisplayName: Mobile Assistant
         CFBundleShortVersionString: "1.0"
-        CFBundleVersion: "4"
+        CFBundleVersion: "5"
         UILaunchScreen:
           UIColorName: ""
         NSLocalNetworkUsageDescription: "Connects to your Hermes channel server on your local network"

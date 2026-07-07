@@ -97,9 +97,11 @@ struct ChatView: View {
                     if showWatermark {
                         VStack(spacing: 8) {
                             Image("AppLogo")
+                                .renderingMode(.template)
                                 .resizable()
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: 240, height: 240)
+                                .foregroundStyle(.secondary)
                                 .opacity(0.30)
                             Text("How can I help you?")
                                 .font(.title2.weight(.semibold))
