@@ -2,7 +2,7 @@
   <img src="hermes-ios/HermesApp/Resources/Assets.xcassets/AppLogo.imageset/AppLogo-1024.png" alt="Hermes Mobile logo" width="220">
 </p>
 
-<h1 align="center">Hermes Mobile — iOS Channel for Hermes</h1>
+<h1 align="center">AI Mobile Assistant — iOS Channel for Hermes</h1>
 
 <p align="center">
   Talk to your own Hermes agent from your iPhone — by text or by voice.
