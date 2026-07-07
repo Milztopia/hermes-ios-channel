@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="hermes-ios/HermesApp/Resources/Assets.xcassets/AppLogo.imageset/AppLogo-1024.png" alt="Hermes Mobile logo" width="220">
+  <img src="hermes-ios/HermesApp/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png" alt="AI Mobile Assistant logo" width="220">
 </p>
 
 <h1 align="center">AI Mobile Assistant — iOS Channel for Hermes</h1>
