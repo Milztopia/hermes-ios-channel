@@ -16,7 +16,7 @@
 
 ---
 
-Hermes Mobile is a new communication channel for the
+AI Mobile Assistant is a new communication channel for the
 [Hermes Agent](https://hermes-agent.nousresearch.com) ecosystem: a native
 SwiftUI iPhone app plus a lightweight FastAPI channel server that connects to
 your existing Hermes installation. Your models, tools, memory, and provider
