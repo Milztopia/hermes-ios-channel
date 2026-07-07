@@ -41,7 +41,7 @@ targets:
       properties:
         CFBundleDisplayName: Hermes Mobile
         CFBundleShortVersionString: "1.0"
-        CFBundleVersion: "1"
+        CFBundleVersion: "2"
         UILaunchScreen:
           UIColorName: ""
         NSLocalNetworkUsageDescription: "Connects to your Hermes channel server on your local network"
