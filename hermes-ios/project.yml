@@ -39,9 +39,9 @@ targets:
     info:
       path: HermesApp/Resources/Info.plist
       properties:
-        CFBundleDisplayName: Hermes Mobile
+        CFBundleDisplayName: AI Mobile Assistant
         CFBundleShortVersionString: "1.0"
-        CFBundleVersion: "2"
+        CFBundleVersion: "3"
         UILaunchScreen:
           UIColorName: ""
         NSLocalNetworkUsageDescription: "Connects to your Hermes channel server on your local network"

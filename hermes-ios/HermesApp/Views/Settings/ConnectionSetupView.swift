@@ -16,7 +16,7 @@ struct ConnectionSetupView: View {
                     Image(systemName: "sparkles")
                         .font(.system(size: 56))
                         .foregroundStyle(.tint)
-                    Text("Welcome to Hermes")
+                    Text("Welcome to AI Mobile Assistant")
                         .font(.title).bold()
                     Text("Enter your server address to get started.")
                         .font(.subheadline)

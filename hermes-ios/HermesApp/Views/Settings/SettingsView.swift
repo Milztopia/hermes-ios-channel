@@ -53,7 +53,7 @@ struct SettingsView: View {
                     }
                 }
 
-                Section(footer: Text("Hermes Mobile")) {
+                Section(footer: Text("AI Mobile Assistant")) {
                     HStack {
                         Label("Status", systemImage: "circle.fill")
                             .symbolRenderingMode(.hierarchical)
